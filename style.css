@@ -1,0 +1,16 @@
+body {
+    font-family: Inter,  sans-serif;
+    font-size: 11px;
+    background-color: #D6FF6B;
+    color: #1c9a52;
+}
+h1:hover {
+    animation: color-chance 3s infinite;
+    @keyframes color-change {
+        0% { color: #1c9a52; }
+        50% { color: #222c9a54; }
+        100% { color: #1C9a60; }
+    }
+    font-size: 24px;
+    font-family: Georgia, serif;
+}
